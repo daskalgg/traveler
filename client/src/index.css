@@ -36,6 +36,28 @@ body {
   border-radius: 20px;
 }
 
+.overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 9999 !important;
+  pointer-events: none;
+
+  margin: 20px;
+}
+
+.logo {
+  width: 30%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.nav {
+  width: 7%;
+  height: auto;
+  pointer-events: all;
+}
+
 .entry-form label, 
 .entry-form input, 
 .entry-form textarea, 
