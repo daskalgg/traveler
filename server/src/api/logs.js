@@ -21,4 +21,16 @@ router.post('/', async (req, res, next) => {
   }
 });
 
+router.put('/', async (req, res, next) => {
+  try {
+    const LogUpdate = await LogEntry.updateOne({ _id: req.query.id }, req.body);
+    res.json(LogUpdate);
+  } catch (error) {
+    if (error.name === 'CastError') {
+      res.status(404);
+    }
+    next(error);
+  }
+});
+
 module.exports = router;
