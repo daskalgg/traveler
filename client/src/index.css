@@ -13,7 +13,8 @@ body {
   /* stroke:  #ec2011;
   stroke-width: 2px;  */
   stroke-width: 0%; 
-  fill: rgb(207, 125, 139); 
+  /* fill: rgb(207, 125, 139);  */
+  fill: #a1335f;
   /* transform: translate(-61%, -111%); */
   width:"1%";
   height:"1%";
@@ -28,6 +29,11 @@ body {
   transform: translate(-61%, -111%); */
   width: 150%;
   height: 150%;
+}
+
+.marker .marker-top {
+  fill: #E13F81;
+  z-index: 10;
 }
 
 .popup {
@@ -47,15 +53,19 @@ body {
 }
 
 .logo {
-  width: 30%;
+  width: 40%;
   height: auto;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .nav {
   width: 7%;
   height: auto;
   pointer-events: all;
+  cursor: pointer;
+  fill: #E13F81;
+  stroke: #E13F81;
+  margin-right: 10px;
 }
 
 .entry-form label, 

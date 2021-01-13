@@ -7,17 +7,21 @@ import Place from './Place';
 
 import logo from './resources/logo.png';
 import orientation from './resources/orientation.png';
+import zoomImg from './resources/zoom.png';
 
 const App = () => {
   const [logEntries, setLogEntries] = useState([]);
 
+  const czoom = 7;
+
   const [addEntryLocation, setAddEntryLocation] = useState(null);
   const [rotation, setRotation] = useState(0);
+  const [zoom, setZoom] = useState(czoom);
   const [viewport, setViewport] = useState({
-    latitude: 37.7577,
-    longitude: -122.4376,
+    latitude: 36.188567121562166,
+    longitude: 25.075830462376633,
     bearing: 0,
-    zoom: 8
+    zoom: czoom
   });
 
   useEffect(() => {
@@ -39,6 +43,7 @@ const App = () => {
   const rotate = (event) => {
     setViewport(event);
     setRotation(event.bearing);
+    setZoom(event.zoom);
   }
 
 
@@ -58,6 +63,15 @@ const App = () => {
               rotate: `${rotation}deg`
             }}
             src={orientation} alt='nav'></img>
+          <img className="nav"
+            onMouseUp={() => {
+              console.log(`zoom pressed ${zoom}`);
+              let e = viewport;
+              e.zoom = czoom;
+              rotate(e);
+            }}
+            src={zoomImg} alt='zoom'>
+          </img>
         </div>
       </div>
       <ReactMapGL
@@ -73,7 +87,7 @@ const App = () => {
       >
         {
           logEntries.map(entry => (
-            <Place entry={entry} zoom={viewport.zoom}></Place>
+            <Place key={entry._id} entry={entry} zoom={viewport.zoom}></Place>
           ))
         }
         {

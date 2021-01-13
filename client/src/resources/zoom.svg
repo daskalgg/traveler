@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="130.00789mm"
+   height="130.00812mm"
+   viewBox="0 0 130.00789 130.00812"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07, custom)"
+   sodipodi:docname="zoom.svg"
+   inkscape:export-filename="/home/george/Documents/Repos/web/travel-log/client/src/resources/zoom.png"
+   inkscape:export-xdpi="19.537275"
+   inkscape:export-ydpi="19.537275">
+  <defs
+     id="defs2">
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lstart"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lstart"
+       inkscape:isstock="true">
+      <path
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path841" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.0187957"
+     inkscape:cx="375.13766"
+     inkscape:cy="203.29048"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="true"
+     showborder="true"
+     inkscape:snap-grids="true"
+     inkscape:window-width="1918"
+     inkscape:window-height="1038"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="0"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid835"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="49.261854"
+       originy="30.695871" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     style="display:inline"
+     transform="translate(49.261855,30.695871)">
+    <path
+       id="path839"
+       style="fill:#e4558f;fill-opacity:1;fill-rule:evenodd;stroke-width:0.465;stroke-linecap:round;stroke-linejoin:round"
+       d="m -36.848559,-18.310985 c -0.132676,0.132618 -0.264469,0.266116 -0.395371,0.400486 -16.269615,16.6921352 -15.984413,43.395985 0.638001,59.736827 15.115591,14.859275 38.8908386,16.249055 55.634762,3.252127 l 3.041287,3.041288 c -1.036472,1.036472 -1.036473,2.7053 0,3.741773 l 41.159507,41.159507 c 1.036469,1.036469 2.705301,1.036472 3.741773,0 l 4.677217,4.677216 7.3e-4,-7.31e-4 c 0.03126,0.03256 0.06293,0.06472 0.09501,0.09647 2.07787,2.042896 5.416325,2.021496 7.467834,-0.04787 2.05139,-2.069096 2.044202,-5.407227 -0.01608,-7.467469 l -0.06431,-0.06358 3.65e-4,-3.65e-4 -4.677216,-4.677217 c 1.036473,-1.036473 1.036469,-2.705304 0,-3.741773 L 33.29544,40.636196 c -1.036473,-1.036473 -2.7053,-1.036473 -3.741773,0 L 26.512379,37.594909 C 39.593739,20.742214 38.090821,-3.2113008 23.005563,-18.296734 l -0.515956,-0.507185 C 5.8857581,-34.849715 -20.513574,-34.63041 -36.848559,-18.310985 Z m 7.0677,7.032469 c 12.483415,-12.448639 32.6368846,-12.606837 45.314184,-0.3557 l 0.393981,0.387601 c 12.592744,12.59268 12.636382,32.996018 0.09762,45.642448 -12.5388974,12.646448 -32.942012,12.777077 -45.64181,0.292217 -12.699807,-12.484659 -12.91771,-32.8868402 -0.487452,-45.639898 0.107051,-0.109654 0.21488,-0.218546 0.32348,-0.326668 z"
+       inkscape:export-xdpi="19.537275"
+       inkscape:export-ydpi="19.537275"
+       sodipodi:nodetypes="cccccsscccccccccsscccccccccccc" />
+  </g>
+</svg>

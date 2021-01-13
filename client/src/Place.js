@@ -6,8 +6,7 @@ import Marker from './Marker';
 const Place = ({ entry, zoom }) => {
     const [showPopup, setShowPopup] = useState({});
     return (
-        <div key={entry._id}
-
+        <div
             onClick={() => setShowPopup({
                 showPopup,
                 [entry._id]: true,
@@ -15,7 +14,7 @@ const Place = ({ entry, zoom }) => {
             <Marker entry={entry} zoom={zoom}></Marker>
             {
                 showPopup[entry._id] ? (
-                    <Popup
+                    <Popup className="popup"
                         latitude={entry.latitude}
                         longitude={entry.longitude}
                         closeButton={true}
@@ -27,6 +26,8 @@ const Place = ({ entry, zoom }) => {
                         anchor="top">
                         <div>
                             <h3>{entry.title}</h3>
+                            <img src={entry.image} alt={entry.title}></img>
+                            <h4>{entry.description}</h4>
                             <p>{entry.comments}</p>
                             <small>Visited On: {new Date(entry.visitDate).toLocaleDateString()}</small>
                         </div>
